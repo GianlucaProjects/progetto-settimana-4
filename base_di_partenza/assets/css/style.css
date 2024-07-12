@@ -63,7 +63,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px;
+    padding: 20px 30px;
     background-color: #ffc017;
     color: white;
 }
@@ -99,9 +99,119 @@ nav {
 
 
 .hero-text {
-    width: 50%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Assicura che le card siano equidistanti e allineate ai bordi */
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 1200px; /* Imposta una larghezza massima per il contenitore */
+    padding: 40px; /* Padding intorno al contenitore per garantire spazio dal bordo della pagina */
+}
+
+.card {
+    display: flex;
+    flex-basis: 30%; /* Ogni card occupa circa il 30% dello spazio disponibile */
+    margin: 10px; /* Margini intorno a ciascuna card per garantire la distanza */
+    position: relative; /* Posizionamento relativo per futuri aggiustamenti di stile */
+}
+
+.card-header {
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    flex-direction: row;
+}
+
+.align-vertically {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-number {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px; /* Spazio tra il numero e l'immagine */
+}
+
+.card-image:nth-child(1),
+.card-image:nth-child(2) {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+.card-image:nth-child(n+3) {
+    border-radius: 15px;
+    margin-right: 10px;
+    object-fit: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.card-content {
+    flex-grow: 1;
+}
+
+.card-title {
+    font-size: 16px;
+    color: #333;
+}
+
+.card-subtitle {
+    font-size: 14px;
+    color: balck;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.card-date {
+    font-size: 12px;
+    color: #999;
+    padding-top: 8%;
+}
+
+.verticle-article {
+    margin-top: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+.orizzontal-elements {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: row;
+    max-width: calc(50% - 20px); /* Limita la larghezza massima al 50% meno il margine sinistro */
+    width: 100%; /* Assicura che il container possa espandersi fino alla larghezza massima */
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.round-image {
+    border-radius: 15px;
+    object-fit: contain;
+}
+
+.white {
+    color: lightgray;
+    margin-bottom: 0%;
+}
+
+.rappresentative-img {
+    object-fit: fit;
+    height:30%;
+}
