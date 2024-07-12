@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ffc017;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 40px; /* Adatta l'altezza del logo come preferisci */
+}
+
+.logo {
+    padding-left: 10%;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin-right: 10%;
+    display: flex;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
+
+
+#get-started {
+    background-color: #000; /* Sfondo nero */
+    border-radius: 20px; /* Bordo arrotondato */
+    padding: 5px 15px; /* Spaziatura interna */
+    color: white; /* Colore del testo bianco */
+    text-decoration: none; /* Nessuna sottolineatura */
+}
+
+.separator {
+    border: none;
+    border-top: 1px solid #444; /* Linea di separazione */
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #ffc017;
+    color: white;
+}
+
+.hero-content {
+    max-width: 50%;
+    padding-left: 10%;
+}
+
+.hero h1 {
+    font-family: 'Spectral', serif; /* Applica il font Spectral */
+    font-size: 100px;
+    margin: 0;
+    color: black;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 0 0 20px;
+    padding-top: 0%;
+    color: black;
+    padding-bottom: 3%;
+}
+
+.cta-button {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.hero-text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
